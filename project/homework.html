@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN PAGE</title>
+    <link href="homework.css" rel="stylesheet">
+
+</head>
+<body>
+    <h1> 숙제 </h1>
+
+    <form name = 'login'>
+        <p>
+            Username <input type = 'text' name = 'userid'> 
+        </p> 
+        <p>
+            Password <input type = 'password' name = 'userpassword'>
+        </p>  
+        <div>
+            <input type = 'button' onclick = "check(this.form)" value = 'Login'>
+            <input type = 'reset' value = 'cancel'> 
+        </div>
+ 
+ 
+    </form>
+
+    <h2> 랜덤명언 출력 </h2>
+    <div id="quote">
+        <span> </span>
+        <span> </span>
+      </div>
+
+      <script src="homework.js" >
+       </script>
+</body>
+</html>
